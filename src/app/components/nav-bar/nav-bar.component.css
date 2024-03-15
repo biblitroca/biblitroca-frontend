@@ -1,0 +1,39 @@
+.container-navbar{
+    margin-top: 2px;
+
+}
+
+.line-color{
+    background-color: #612AFF;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+}
+
+.navbar > h1{
+    padding: 18px;
+}
+
+
+.options-navbar{
+    display: flex;
+    align-items: center;
+   
+}
+
+.options-navbar > a{
+    padding: 10px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #333;
+    
+}
+
+.options-navbar > input{
+    border-radius: 3px;
+}
+
