@@ -7,16 +7,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { routes } from './app.routes';
 import { CommonModule } from '@angular/common';
 
-@NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    HttpClientModule
-  ],
-  exports: [
-    HttpClientModule
-  ]
-})
+// @NgModule({
+//   declarations: [],
+//   imports: [
+//     CommonModule,
+//     HttpClientModule
+//   ],
+//   exports: [
+//     HttpClientModule
+//   ]
+// })
 
 export const appConfig: ApplicationConfig = {
   providers: [provideRouter(routes)]
