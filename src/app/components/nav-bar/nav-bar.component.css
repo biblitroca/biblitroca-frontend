@@ -54,3 +54,11 @@ url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Krub:ital,
     border-radius: 3px;
 }
 
+.icons > svg{
+    margin-left: 15px; 
+}
+
+.banner-container > img {
+  height: 400px;
+   
+}

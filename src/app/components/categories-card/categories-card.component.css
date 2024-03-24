@@ -1,0 +1,19 @@
+.container-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-component{
+padding: 20px;
+text-align: center;
+}
+
+
+#img-section{
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+
+}
