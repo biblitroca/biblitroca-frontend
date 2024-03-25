@@ -1,31 +1,32 @@
 *{
     padding: 5px;
+    
 }
+
+.title{
+ display: flex;
+ width: 600px;
+ align-items: center;
+}
+
+.title > a{
+text-decoration: none;
+color: #000;
+}
+
 
 .container-main{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 10%;
-}
-
-.container-main >button{
-    width: 200px;
-    height: 30px;
-    background-color: #ccc;
-    border: 1px solid ;
+    width: 217vh;
 }
 
 .container-card {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
- 
-}
 
-.card-book{
-  
-    padding: 5px;
+ 
 }
 
 .info-book {
@@ -53,6 +54,7 @@
 .card-section{
     display: flex;
     flex-direction: column;
+    
 }
 
 .img-book > img{
