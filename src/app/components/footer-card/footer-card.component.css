@@ -2,55 +2,54 @@
     display: flex;
     background-color: #000;
     justify-content: space-between;
+    text-align: center;
 }
 
 .list-control{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
     text-align: center;
-    padding: 10px;
-    margin-left: 100px;
-    color: #fff;
-    
-    
+    width: 50%;
+    margin: 1%;
+    color: #f6f6f6;   
 }
 
 .list-container> ul{
     padding: 20px;
-    text-align: start;
+    text-align: center;
+    text-align: center;
     list-style: none;
-    
 }
 
 .list-container> ul > li{
-    padding: 3px;
+    padding: 9px;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
 .contact-control {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-    
-
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   margin-top: 20px;
+   margin-right: 15%;
+    color: #f6f6f6;
+    padding: 15px;
 }
 
 .contact-container{
-    padding:50px;
-    display: flex;
-    
-   
-
+    display: grid;
+    grid-template-columns: auto auto;
+     gap: 10px; 
+    padding: 15px;
 }
 
 .contact-container> a {
-    
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
     text-decoration: none;
-    margin-top: 50px;
-    color: #fff;
+    width: 70px;
+    color: #f6f6f6;
 }

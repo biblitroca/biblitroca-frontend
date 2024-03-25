@@ -1,17 +1,22 @@
-*{
-    padding: 5px;
-    
-}
-
 .title{
  display: flex;
  width: 600px;
  align-items: center;
+ margin-bottom: 10px;
+ 
+}
+
+.title > h1{
+    margin-left: 20px;
+    color: #333;
+    padding: 25px;
 }
 
 .title > a{
+font-weight: bold;
 text-decoration: none;
-color: #000;
+color: #333;
+margin-left: 20px;
 }
 
 
@@ -19,32 +24,31 @@ color: #000;
     display: flex;
     flex-direction: column;
     width: 217vh;
+
 }
 
 .container-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
- 
 }
 
 .info-book {
     display: flex;
     align-items: flex-start;
-   
-    
+    margin-left: 20px;
+
 }
 
 .info-book >h4 {
     font-size: 15px;
     justify-content: flex-start;
+    
+    
 }
 
 .info-book > p {
-
   font-weight:normal;
-  
 }
 
 .info-book >span{
@@ -54,14 +58,12 @@ color: #000;
 .card-section{
     display: flex;
     flex-direction: column;
-    
 }
 
 .img-book > img{
     width: 100x;
     height: 200px;
     border-radius: 10px;
-
 }
 
 .info-book{
