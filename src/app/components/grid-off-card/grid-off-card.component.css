@@ -5,22 +5,12 @@
 .container-main{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
- 
-    margin-left: 10%;
    
-}
-
-.container-main >button{
-    width: 200px;
-    height: 30px;
-    background-color: #ccc;
-    border: 1px solid ;
 }
 
 .container-card {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
  
 }
