@@ -4,13 +4,16 @@ import { NavBarComponent } from "../../components/nav-bar/nav-bar.component";
 import { GridOffCardComponent } from "../../components/grid-off-card/grid-off-card.component";
 import { FooterCardComponent } from "../../components/footer-card/footer-card.component";
 import { CategoriesCardComponent } from "../../components/categories-card/categories-card.component";
+import { RouterModule } from '@angular/router'; 
+
+
 
 @Component({
     selector: 'app-home',
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [GridCardComponent, NavBarComponent, GridOffCardComponent, FooterCardComponent, CategoriesCardComponent]
+    imports: [GridCardComponent, NavBarComponent, GridOffCardComponent, FooterCardComponent, CategoriesCardComponent,RouterModule]
 })
 export class HomeComponent {
 
