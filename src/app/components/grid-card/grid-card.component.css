@@ -1,62 +1,75 @@
-.title {
-    display: flex;
-    width: 100%; /* Alterado para 100% */
-    align-items: center;
-    margin-bottom: 10px;
+*{
+    padding: 5px;
+    
 }
 
-.title > h1 {
-    margin-left: 20px;
-    color: #333;
-    padding: 25px;
+.title{
+ display: flex;
+ width: 600px;
+ align-items: center;
+ color: #333;
+
 }
 
-.title > a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #333;
-    margin-left: 20px;
+.title > a{
+text-decoration: none;
+color: #333;
+
 }
 
-.container-main {
+
+.container-main{
     display: flex;
     flex-direction: column;
-    width: 100vw; 
+    width: 217vh;
 }
 
 .container-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+ 
 }
 
 .info-book {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 20px;
+    align-items: flex-start;
+    color: #333;
+   
+    
 }
 
-.info-book > h4 {
-    font-size: 15px;
-    font-weight: normal;
+.info-book >h4 {
+    font-size: 13px;
+    align-items: center;
 }
 
 .info-book > p {
-    font-weight: normal;
+    font-size: 13px;
+    font-weight:normal;
+  
 }
 
-.info-book > span {
+.info-book >span{
     font-weight: bold;
 }
 
-.card-section {
+.card-section{
     display: flex;
     flex-direction: column;
+    
 }
 
-.img-book > img {
-    width: 100px;
+.img-book > img{
+    width: 100x;
     height: 200px;
     border-radius: 10px;
+
+}
+
+.info-book{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }

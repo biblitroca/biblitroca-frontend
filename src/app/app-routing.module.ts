@@ -8,7 +8,6 @@ import { GridOffCardComponent } from './components/grid-off-card/grid-off-card.c
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path:'list', component:GridOffCardComponent}
 
 ];
 

@@ -9,7 +9,5 @@ export const routes: Routes = [
     { path:'sebo', component:GridOffCardComponent},
     { path:'biblioteca', component:GridCardComponent},
     { path:'categorias', component:CategoriesCardComponent},
-
-  
   ];
 
