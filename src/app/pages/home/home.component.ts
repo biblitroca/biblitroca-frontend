@@ -6,13 +6,16 @@ import { FooterCardComponent } from "../../components/footer-card/footer-card.co
 import { CategoriesCardComponent } from "../../components/categories-card/categories-card.component";
 import { CreateAccountComponent } from "../../components/create-account/create-account.component";
 import {ContinueWithComponent} from "../../components/continue-with/continue-with.component"
-// import { AppModule } from '../../app/app.module';
+import { RouterOutlet } from '@angular/router';
 @Component({
     selector: 'app-home',
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [GridCardComponent, NavBarComponent, GridOffCardComponent, FooterCardComponent, CategoriesCardComponent, CreateAccountComponent, ContinueWithComponent]
+    imports: [
+                GridCardComponent, NavBarComponent, GridOffCardComponent, FooterCardComponent,
+                CategoriesCardComponent, CreateAccountComponent, ContinueWithComponent, RouterOutlet
+            ]
 })
 export class HomeComponent {
 
