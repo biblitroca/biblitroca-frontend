@@ -17,9 +17,11 @@ export class GridCardComponent implements OnInit {
   constructor(private apiService: ApiService) {}
 
   ngOnInit(): void {
-    this.apiService.get().subscribe((data: any) => {
+    this.apiService.getBooks().subscribe((data: any) => {
       console.log(data);
     });
     throw new Error('erro');
   }
+
+  
 }

@@ -10,10 +10,8 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
 
-  get(): Observable<any> {
-    return this.http.get(`${this.apiUrl}`);
+  getBooks(){
+    return this.http.get(this.apiUrl)
   }
 
-
-  
 }

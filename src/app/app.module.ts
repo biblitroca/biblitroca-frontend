@@ -4,8 +4,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
-const routes: Routes = [
-];
 
 @NgModule({
   declarations: [],
@@ -13,7 +11,7 @@ const routes: Routes = [
     CommonModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule.forRoot(routes)
+  
   ],
   exports: [RouterModule]
 })
