@@ -1,5 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { ApiService } from './../../api.service';
+
+
+
 
 @Component({
   selector: 'app-grid-card',
@@ -9,7 +13,6 @@ import { RouterModule } from '@angular/router';
   styleUrl: './grid-card.component.css'
 })
 export class GridCardComponent {
-
 
   
 }

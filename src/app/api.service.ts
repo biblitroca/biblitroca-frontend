@@ -6,11 +6,14 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-  private apiUrl: string = 'https://biblitroca.onrender.com';
+  private apiUrl: string = 'https://biblitroca.onrender.com/books';
 
   constructor(private http: HttpClient) { }
 
   get(endpoint: string): Observable<any> {
     return this.http.get(`${this.apiUrl}/${endpoint}`);
   }
+
+
+  
 }
