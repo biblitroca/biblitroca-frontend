@@ -1,0 +1,14 @@
+.ellipse{
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    padding: 5px 10px;
+}
+.size{
+    height: 20px;
+    display: inline-block;
+}

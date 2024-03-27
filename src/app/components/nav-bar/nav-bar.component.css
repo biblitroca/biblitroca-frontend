@@ -8,10 +8,10 @@ url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Krub:ital,
 }
 
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    height: 20vh;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  align-items: center;
 }
 
 .navbar > h1{
@@ -40,9 +40,9 @@ url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Krub:ital,
 
 
 .options-navbar{
-    display: flex;
-    align-items: center;
-   
+  display: flex;
+  align-items: center;
+ 
 }
 
 .options-navbar > a{
@@ -55,14 +55,11 @@ url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Krub:ital,
 }
 
 .options-navbar > input{
-    border-radius: 3px;
+  border-radius: 3px;
 }
 
 .icons > svg{
     margin-left: 15px; 
 }
 
-.banner-container > img {
-  height: 400px;
-   
-}
+
