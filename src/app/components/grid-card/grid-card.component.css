@@ -7,11 +7,14 @@
  display: flex;
  width: 600px;
  align-items: center;
+ color: #333;
+
 }
 
 .title > a{
 text-decoration: none;
-color: #000;
+color: #333;
+
 }
 
 
@@ -32,18 +35,19 @@ color: #000;
 .info-book {
     display: flex;
     align-items: flex-start;
+    color: #333;
    
     
 }
 
 .info-book >h4 {
-    font-size: 15px;
-    justify-content: flex-start;
+    font-size: 13px;
+    align-items: center;
 }
 
 .info-book > p {
-
-  font-weight:normal;
+    font-size: 13px;
+    font-weight:normal;
   
 }
 
