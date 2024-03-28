@@ -1,0 +1,32 @@
+.container-main{
+    display: flex;
+    flex-direction: column;
+   }
+   
+   
+   .title{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 10px;
+       color: #333;
+   }
+   
+   .grid-sebo{
+       display: grid;
+       grid-template-columns: repeat(5, 1fr); 
+       grid-gap: 10px; 
+   }
+   
+   .card-book{
+   padding: 20px;
+   }
+   
+   .img-book > img{
+       height: 200px;
+       
+   }
+   
+   .info-book > span{
+   font-weight: bold;
+   }

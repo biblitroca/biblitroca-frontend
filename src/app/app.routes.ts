@@ -5,6 +5,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { GridCardComponent } from './components/grid-card/grid-card.component';
 import { GridOffCardComponent } from './components/grid-off-card/grid-off-card.component';
 import { CategoriesCardComponent } from './components/categories-card/categories-card.component';
+import { BibliotecaComponent } from './pages/biblioteca/biblioteca.component';
+import { SeboComponent } from './pages/sebo/sebo.component';
+import { CategoriasComponent } from './pages/categorias/categorias.component';
 
 export const routes: Routes = [
   {
@@ -21,14 +24,14 @@ export const routes: Routes = [
   },
   { 
     path: 'sebo',
-    component: GridOffCardComponent 
+    component: SeboComponent, 
   },
   { 
     path: 'biblioteca',
-    component: GridCardComponent 
+    component: BibliotecaComponent 
   },
   {
     path: 'categorias',
-    component: CategoriesCardComponent 
+    component: CategoriasComponent 
   },
 ];
