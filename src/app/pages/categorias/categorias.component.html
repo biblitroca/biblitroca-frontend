@@ -9,432 +9,155 @@
         </div>
 
         <div class="title-categoria">
-            <P>Universitários e Acadêmicos:</P>
+               
+            <P>Universitários e Acadêmicos</P>
         </div>
 
-        <div class="grid-sebo">
+        <div class="grid-categorias">
+
+            <div class="grid-books">
+                <div *ngFor="let book of books; let i = index" class="container-card">
+                  <div class="card-book">
+                    <div class="img-book">
+                      <img
+                        [src]="image | async"
+                        src="https://m.media-amazon.com/images/I/51KvntpPRpL._SY445_SX342_.jpg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
             
-
-        <div class="card-book">
-
-
-            <div class="img-book">
-                <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-            </div>
-
-            <div class="info-book">
-                <span>Mulheres que correm com lobos</span>
-                <p>Clarissa Pinkola</p>
-                <p>Editora</p>
-                <span>R$44,99</span>
-            </div>
+                    <div class="info-book">
+                      <h4>{{ book.name }}</h4>
+                      <p>{{ book.author }}</p>
+                      <p>Categoria: {{ book.type }}</p>
+                      <span>{{ book.price }}</span>
+                    </div>
+                  </div>
+                </div>
 
         </div>
 
-        <div class="card-book">
-
-            <div class="img-book">
-                <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-            </div>
-
-            <div class="info-book">
-                <span>Mulheres que correm com lobos</span>
-                <p>Clarissa Pinkola</p>
-                <p>Editora</p>
-                <span>R$44,99</span>
-            </div>
-
-        </div>
-
-        <div class="card-book">
-
-            <div class="img-book">
-                <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-            </div>
-
-            <div class="info-book">
-                <span>Mulheres que correm com lobos</span>
-                <p>Clarissa Pinkola</p>
-                <p>Editora</p>
-                <span>R$44,99</span>
-            </div>
-
-        </div>
-
-        <div class="card-book">
-
-            <div class="img-book">
-                <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-            </div>
-
-            <div class="info-book">
-                <span>Mulheres que correm com lobos</span>
-                <p>Clarissa Pinkola</p>
-                <p>Editora</p>
-                <span>R$44,99</span>
-            </div>
-
-        </div>
-
-        <div class="card-book">
-
-            <div class="img-book">
-                <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-            </div>
-
-            <div class="info-book">
-                <span>Mulheres que correm com lobos</span>
-                <p>Clarissa Pinkola</p>
-                <p>Editora</p>
-                <span>R$44,99</span>
-            </div>
-
-        </div>
-
-        </div>
 
         <div class="title-categoria">
-            <P>Inglês e outras Línguas:</P>
+               
+            <P>Inglês e outras Línguas</P>
         </div>
 
-        <div class="grid-sebo">
-            
+        <div class="grid-categorias">
 
-            <div class="card-book">
-    
-    
-                <div class="img-book">
-                    <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                </div>
-    
-                <div class="info-book">
-                    <span>Mulheres que correm com lobos</span>
-                    <p>Clarissa Pinkola</p>
-                    <p>Editora</p>
-                    <span>R$44,99</span>
-                </div>
-    
-            </div>
-    
-            <div class="card-book">
-    
-                <div class="img-book">
-                    <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                </div>
-    
-                <div class="info-book">
-                    <span>Mulheres que correm com lobos</span>
-                    <p>Clarissa Pinkola</p>
-                    <p>Editora</p>
-                    <span>R$44,99</span>
-                </div>
-    
-            </div>
-    
-            <div class="card-book">
-    
-                <div class="img-book">
-                    <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                </div>
-    
-                <div class="info-book">
-                    <span>Mulheres que correm com lobos</span>
-                    <p>Clarissa Pinkola</p>
-                    <p>Editora</p>
-                    <span>R$44,99</span>
-                </div>
-    
-            </div>
-    
-            <div class="card-book">
-    
-                <div class="img-book">
-                    <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                </div>
-    
-                <div class="info-book">
-                    <span>Mulheres que correm com lobos</span>
-                    <p>Clarissa Pinkola</p>
-                    <p>Editora</p>
-                    <span>R$44,99</span>
-                </div>
-    
-            </div>
-    
-            <div class="card-book">
-    
-                <div class="img-book">
-                    <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                </div>
-    
-                <div class="info-book">
-                    <span>Mulheres que correm com lobos</span>
-                    <p>Clarissa Pinkola</p>
-                    <p>Editora</p>
-                    <span>R$44,99</span>
-                </div>
-    
-            </div>
-    
-            </div>
-
-            <div class="title-categoria">
-                <P>HQs e Mangás:</P>
-            </div>
-    
-            <div class="grid-sebo">
-                
-    
-                <div class="card-book">
-        
-        
+            <div class="grid-books">
+                <div *ngFor="let book of books; let i = index" class="container-card">
+                  <div class="card-book">
                     <div class="img-book">
-                        <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
+                      <img
+                        [src]="image | async"
+                        src="https://m.media-amazon.com/images/I/51KvntpPRpL._SY445_SX342_.jpg"
+                        alt=""
+                        srcset=""
+                      />
                     </div>
-        
+            
                     <div class="info-book">
-                        <span>Mulheres que correm com lobos</span>
-                        <p>Clarissa Pinkola</p>
-                        <p>Editora</p>
-                        <span>R$44,99</span>
+                      <h4>{{ book.name }}</h4>
+                      <p>{{ book.author }}</p>
+                      <p>Categoria: {{ book.type }}</p>
+                      <span>{{ book.price }}</span>
                     </div>
-        
+                  </div>
                 </div>
-        
-                <div class="card-book">
-        
+
+        </div>
+
+        <div class="title-categoria">   
+            <P>HQs e Mangás</P>
+        </div>
+
+        <div class="grid-categorias">
+
+            <div class="grid-books">
+                <div *ngFor="let book of books; let i = index" class="container-card">
+                  <div class="card-book">
                     <div class="img-book">
-                        <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
+                      <img
+                        [src]="image | async"
+                        src="https://m.media-amazon.com/images/I/51KvntpPRpL._SY445_SX342_.jpg"
+                        alt=""
+                        srcset=""
+                      />
                     </div>
-        
+            
                     <div class="info-book">
-                        <span>Mulheres que correm com lobos</span>
-                        <p>Clarissa Pinkola</p>
-                        <p>Editora</p>
-                        <span>R$44,99</span>
+                      <h4>{{ book.name }}</h4>
+                      <p>{{ book.author }}</p>
+                      <p>Categoria: {{ book.type }}</p>
+                      <span>{{ book.price }}</span>
                     </div>
-        
+                  </div>
                 </div>
-        
-                <div class="card-book">
-        
+
+        </div>
+
+        <div class="title-categoria">   
+            <P>Religião e Espititualidade</P>
+        </div>
+
+        <div class="grid-categorias">
+
+            <div class="grid-books">
+                <div *ngFor="let book of books; let i = index" class="container-card">
+                  <div class="card-book">
                     <div class="img-book">
-                        <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
+                      <img
+                        [src]="image | async"
+                        src="https://m.media-amazon.com/images/I/51KvntpPRpL._SY445_SX342_.jpg"
+                        alt=""
+                        srcset=""
+                      />
                     </div>
-        
+            
                     <div class="info-book">
-                        <span>Mulheres que correm com lobos</span>
-                        <p>Clarissa Pinkola</p>
-                        <p>Editora</p>
-                        <span>R$44,99</span>
+                      <h4>{{ book.name }}</h4>
+                      <p>{{ book.author }}</p>
+                      <p>Categoria: {{ book.type }}</p>
+                      <span>{{ book.price }}</span>
                     </div>
-        
+                  </div>
                 </div>
-        
-                <div class="card-book">
-        
+
+        </div>
+
+        <div class="title-categoria">   
+            <P>Universitários e Acadêmicos</P>
+        </div>
+
+                <div class="grid-categorias">
+
+            <div class="grid-books">
+                <div *ngFor="let book of books; let i = index" class="container-card">
+                  <div class="card-book">
                     <div class="img-book">
-                        <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
+                      <img
+                        [src]="image | async"
+                        src="https://m.media-amazon.com/images/I/51KvntpPRpL._SY445_SX342_.jpg"
+                        alt=""
+                        srcset=""
+                      />
                     </div>
-        
+            
                     <div class="info-book">
-                        <span>Mulheres que correm com lobos</span>
-                        <p>Clarissa Pinkola</p>
-                        <p>Editora</p>
-                        <span>R$44,99</span>
+                      <h4>{{ book.name }}</h4>
+                      <p>{{ book.author }}</p>
+                      <p>Categoria: {{ book.type }}</p>
+                      <span>{{ book.price }}</span>
                     </div>
-        
-                </div>
-        
-                <div class="card-book">
-        
-                    <div class="img-book">
-                        <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                    </div>
-        
-                    <div class="info-book">
-                        <span>Mulheres que correm com lobos</span>
-                        <p>Clarissa Pinkola</p>
-                        <p>Editora</p>
-                        <span>R$44,99</span>
-                    </div>
-        
-                </div>
-        
+                  </div>
                 </div>
 
-
-                <div class="title-categoria">
-                    <P>Religião e Espititualidade:</P>
-                </div>
-        
-                <div class="grid-sebo">
-                    
-        
-                    <div class="card-book">
-            
-            
-                        <div class="img-book">
-                            <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                        </div>
-            
-                        <div class="info-book">
-                            <span>Mulheres que correm com lobos</span>
-                            <p>Clarissa Pinkola</p>
-                            <p>Editora</p>
-                            <span>R$44,99</span>
-                        </div>
-            
-                    </div>
-            
-                    <div class="card-book">
-            
-                        <div class="img-book">
-                            <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                        </div>
-            
-                        <div class="info-book">
-                            <span>Mulheres que correm com lobos</span>
-                            <p>Clarissa Pinkola</p>
-                            <p>Editora</p>
-                            <span>R$44,99</span>
-                        </div>
-            
-                    </div>
-            
-                    <div class="card-book">
-            
-                        <div class="img-book">
-                            <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                        </div>
-            
-                        <div class="info-book">
-                            <span>Mulheres que correm com lobos</span>
-                            <p>Clarissa Pinkola</p>
-                            <p>Editora</p>
-                            <span>R$44,99</span>
-                        </div>
-            
-                    </div>
-            
-                    <div class="card-book">
-            
-                        <div class="img-book">
-                            <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                        </div>
-            
-                        <div class="info-book">
-                            <span>Mulheres que correm com lobos</span>
-                            <p>Clarissa Pinkola</p>
-                            <p>Editora</p>
-                            <span>R$44,99</span>
-                        </div>
-            
-                    </div>
-            
-                    <div class="card-book">
-            
-                        <div class="img-book">
-                            <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                        </div>
-            
-                        <div class="info-book">
-                            <span>Mulheres que correm com lobos</span>
-                            <p>Clarissa Pinkola</p>
-                            <p>Editora</p>
-                            <span>R$44,99</span>
-                        </div>
-            
-                    </div>
-            
-                    </div>
+        </div>
 
 
-                    <div class="title-categoria">
-                        <P>Universitários e Acadêmicos:</P>
-                    </div>
-            
-                    <div class="grid-sebo">
-                        
-            
-                        <div class="card-book">
-                
-                
-                            <div class="img-book">
-                                <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                            </div>
-                
-                            <div class="info-book">
-                                <span>Mulheres que correm com lobos</span>
-                                <p>Clarissa Pinkola</p>
-                                <p>Editora</p>
-                                <span>R$44,99</span>
-                            </div>
-                
-                        </div>
-                
-                        <div class="card-book">
-                
-                            <div class="img-book">
-                                <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                            </div>
-                
-                            <div class="info-book">
-                                <span>Mulheres que correm com lobos</span>
-                                <p>Clarissa Pinkola</p>
-                                <p>Editora</p>
-                                <span>R$44,99</span>
-                            </div>
-                
-                        </div>
-                
-                        <div class="card-book">
-                
-                            <div class="img-book">
-                                <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                            </div>
-                
-                            <div class="info-book">
-                                <span>Mulheres que correm com lobos</span>
-                                <p>Clarissa Pinkola</p>
-                                <p>Editora</p>
-                                <span>R$44,99</span>
-                            </div>
-                
-                        </div>
-                
-                        <div class="card-book">
-                
-                            <div class="img-book">
-                                <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                            </div>
-                
-                            <div class="info-book">
-                                <span>Mulheres que correm com lobos</span>
-                                <p>Clarissa Pinkola</p>
-                                <p>Editora</p>
-                                <span>R$44,99</span>
-                            </div>
-                
-                        </div>
-                
-                        <div class="card-book">
-                
-                            <div class="img-book">
-                                <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-                            </div>
-                
-                            <div class="info-book">
-                                <span>Mulheres que correm com lobos</span>
-                                <p>Clarissa Pinkola</p>
-                                <p>Editora</p>
-                                <span>R$44,99</span>
-                            </div>
-                
-                        </div>
-                
-                        </div>
-
+    
     </div>
         
         

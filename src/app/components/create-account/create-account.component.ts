@@ -4,6 +4,9 @@ import { NavBarComponent } from '../nav-bar/nav-bar.component';
 import { FooterCardComponent } from '../footer-card/footer-card.component';
 import { CommonModule } from '@angular/common';
 import { ApiService } from '../../api.service';
+import { RouterModule } from '@angular/router';
+
+
 @Component({
   selector: 'app-create-account',
   standalone: true,

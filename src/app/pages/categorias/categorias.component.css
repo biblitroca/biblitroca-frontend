@@ -8,14 +8,14 @@
        display: flex;
        align-items: center;
        justify-content: center;
-       padding: 10px;
+       padding: 20px;
        color: #333;
    }
    
-   .grid-sebo{
-       display: grid;
-       grid-template-columns: repeat(5, 1fr); 
-       grid-gap: 10px; 
+   .title-categoria > p{
+    display: flex;
+    font-weight: bold;
+    margin-left: 20px;
    }
    
    .card-book{
@@ -23,15 +23,17 @@
    }
    
    .img-book > img{
-       height: 200px;
+       width: 200px;
+       height: 300px;
        
    }
    
    .info-book > span{
    font-weight: bold;
    }
-
-   .title-categoria > p{
-    margin-left: 20px;
-    font-weight: bold;
+   
+   .grid-books{
+       display: grid;
+       grid-template-columns: repeat(4, 1fr); 
+      
    }

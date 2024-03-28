@@ -30,3 +30,14 @@
    .info-book > span{
    font-weight: bold;
    }
+
+   .grid-books{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px; 
+}
+
+.img-book > img{
+    width: 200px;
+    height: 300px;
+}

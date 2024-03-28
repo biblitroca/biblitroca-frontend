@@ -28,28 +28,25 @@
     margin-left: 10px;
 }
 
+.grid-books{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px; 
+}
+
+.container-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
 .section-txt> a:hover{
     color: #612AFF;
   }
 
-.card-book{
-  
-    padding: 5px;
-}
-
-.info-book {
-    display: flex;
-    align-items: flex-start;
-    width: 150px;
-   
-    
-}
-
-.info-book >h4 {
-    font-size: 15px;
-    justify-content: flex-start;
- 
-}
 
 .info-book > p {
     font-size: 12px;
@@ -66,17 +63,22 @@
 .card-section{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
 .img-book > img{
-    width: 100x;
-    height: 200px;
+    width: 200px;
+    height: 300px;
     border-radius: 10px;
-
 }
 
 .info-book{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
 }

@@ -23,10 +23,17 @@ padding: 20px;
 }
 
 .img-book > img{
-    height: 200px;
+    width: 200px;
+    height: 300px;
     
 }
 
 .info-book > span{
 font-weight: bold;
+}
+
+.grid-books{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px; 
 }
