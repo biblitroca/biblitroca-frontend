@@ -1,27 +1,83 @@
 # Biblitroca
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+A Biblitroca é um marketplace online dedicado à compra e venda de livros, oferecendo uma ampla variedade de títulos, incluindo novos e usados. O site visa proporcionar uma plataforma conveniente e acessível para amantes da leitura, permitindo que usuários comprem e vendam livros de forma simples e segura.
 
-## Development server
+Nosso site atende a uma ampla gama de usuários, incluindo leitores ávidos em busca de novos títulos, colecionadores de livros raros, estudantes procurando por materiais didáticos e vendedores que desejam comercializar seus próprios livros.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Biblitroca é mais do que apenas um marketplace de livros; é uma comunidade online vibrante e diversificada, unida pela paixão pela leitura. Com uma variedade de recursos e uma interface amigável, o site se destaca como um destino confiável para compradores e vendedores de livros em todo o mundo.
 
-## Code scaffolding
+## 🔨 Funcionalidades do Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este site contém opções para <b>cadastro de usuários</b>, <b>login seguro</b>, <b>busca avançada de livros</b>, <b>listagem de livros</b> e um <b>carrinho de compra</b>.
 
-## Build
+### Cadastro de Usuário
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+A Biblitroca oferece aos usuários a capacidade de criar uma conta pessoal. Isso permite que eles acessem recursos exclusivos, como compra e anúncio de livros.
 
-## Running unit tests
+### Login Seguro
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+O sistema de login da Biblitroca garante a segurança das contas dos usuários, protegendo suas informações pessoais e transações.
 
-## Running end-to-end tests
+### Busca Avançada
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Os usuários podem pesquisar livros por título ou autor, facilitando a localização de obras específicas.
 
-## Further help
+### Listagem de Livros
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Os vendedores podem listar livros para venda na Biblitroca, incluindo informações detalhadas, como título, autor, mídia física ou virtual, preço e fotos do livro. Isso fornece aos compradores uma visão abrangente dos itens disponíveis.
+
+### Carrinho de Compras
+
+Os usuários podem adicionar livros desejados ao carrinho de compras e proceder ao checkout quando estiverem prontos para fazer uma compra.
+
+## ✔️ Tecnologias e Ferramentas Utilizadas
+
+- `HTML`
+- `CSS`
+- `JavaScript`
+- `TypeScript 5.4.2`
+- `PostgreSQL`
+
+## ✔️ Bibliotecas e Frameworks Utilizados
+
+- `Angular 17.2.3`
+- `Nodejs`
+- `Express 4.18.3`
+- `Express Async Errors 3.1.1`
+- `Dotenv 16.4.5`
+- `PG 8.11.3`
+- `TypeORM 0.3.20`
+- `Zod 3.22.4`
+- `Json Web Token 9.0.2`
+- `Bcrypt JS 2.4.3`
+- `Cors 2.8.5`
+- `Reflect Metadata 0.2.1`
+- `Swagger UI Express 5.0.0`
+
+## ⌛ Status do Projeto
+
+O projeto está em fase de desenvolvimento.
+
+## 📁 Acesso ao Projeto
+
+- [Veja o nosso site funcionando](#)
+- [Veja o repositório do front end do nosso projeto no GitHub](https://github.com/biblitroca/biblitroca-frontend)
+- [Veja o repositório do back end do nosso projeto no GitHub](https://github.com/biblitroca/biblitroca-backend)
+- [Veja a documentação da nossa API](https://biblitroca.onrender.com/documentations)
+- [Veja o Figma do nosso projeto](https://www.figma.com/file/s7gFDRW8rXmzSdjJHlzEhI/Biblitroca?type=design&node-id=0%3A1&mode=design&t=Y4dk5LDdABLDHcse-1)
+
+Neste repositório, você tem acesso a todos os arquivos e códigos do front end da aplicação.<br/>
+
+## 🛠️ Abrir e Rodar o Projeto
+
+Para abrir o projeto, basta clonar o repositório e digitar o comando `npm install` no terminal para instalar os pacotes do projeto.<br/>
+Para executar o projeto, basta digitar o comando `ng serve` no terminal e navegar para o endereço localhost especificado.
+
+## 👩‍💻 Desenvolvedores do Projeto
+
+- <a href="https://www.linkedin.com/in/bianca-toller" target="_blank">Bianca Toller</a>
+- <a href="https://www.linkedin.com/in/cleverson-nascimento/" target="_blank">Clerverson Nascimento</a>
+- <a href="https://www.linkedin.com/in/desire%C3%AA-costa/" target="_blank">Desireê Costa</a>
+- <a href="https://www.linkedin.com/in/guilherme-galvao-work/" target="_blank">Guilherme Barbosa Galvão</a>
+- <a href="https://www.linkedin.com/in/rannahmaz/" target="_blank">Rannah M</a>
+- <a href="https://www.linkedin.com/in/viponcio/" target="_blank">Vitoria Kuntz Poncio</a>
