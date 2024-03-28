@@ -1,98 +1,22 @@
-  
-    <!--Iremos utilizar o ngfor para tornar a lista dinamica -->
+<!--Iremos utilizar o ngfor para tornar a lista dinamica -->
 <div class="container-main">
+  <div class="title">
+    <h1>MAIS VENDIDOS EM EBOOKS</h1>
+    <a routerLink="/biblioteca">Ver mais </a>
+  </div>
 
-    <div class="title">
+  <div *ngFor="let book of books; let i = index" class="container-card">
+    <div class="card-book">
+      <div class="img-book">
+        <img [src]="image | async" alt="" srcset="" />
+      </div>
 
-        <h1>MAIS VENDIDOS EM EBOOKS</h1>
-        <a routerLink="/biblioteca">Ver mais </a>
+      <div class="info-book">
+        <h4>{{ book.name }}</h4>
+        <p>{{ book.author }}</p>
+        <p>Categoria: {{ book.type }}</p>
+        <span>{{ book.price }}</span>
+      </div>
     </div>
-    
-    <div class="container-card">
-
-        <div class="card-book">
-
-            <div class="img-book">
-                <img src="https://m.media-amazon.com/images/I/41ogXvQ5WYL._SY445_SX342_.jpg" alt="" srcset="">
-            </div>
-
-            <div class="info-book">
-                <h4>{{name}}</h4>
-                <p>Clarissa Pinkola</p>
-                <p>Editora</p>
-                <span>R$44,99</span>
-            </div>
-
-        </div>
-
-            <div class="card-book">
-
-                <div class="img-book">
-                    <img src="https://m.media-amazon.com/images/I/510CMxWIujL._SY445_SX342_.jpg" alt="" srcset="">
-                </div>
-
-                <div class="info-book">
-
-                    <h4>A princesa salva a si mesma neste livro</h4>
-                    <p>Amanda Lovelace</p>
-                    <p>Editora</p>
-                    <span>R$24,99</span>
-
-                </div>
-
-            </div>
-
-            <div class="card-book">
-
-                <div class="img-book">
-                    <img src="https://m.media-amazon.com/images/I/518OcOHA7XL._SY445_SX342_.jpg" alt="" srcset="">
-                </div>
-
-                <div class="info-book">
-
-                    <h4>Você pode curar sua vida</h4>
-                    <p>Louise L. Hay</p>
-                    <p>Editora</p>
-                    <span>R$39,90</span>
-
-                </div>
-
-            </div>
-
-            <div class="card-book">
-
-                <div class="img-book">
-                    <img src="https://m.media-amazon.com/images/I/510CMxWIujL._SY445_SX342_.jpg" alt="" srcset="">
-                </div>
-
-                <div class="info-book">
-
-                    <h4>A princesa salva a si mesma neste livro</h4>
-                    <p>Amanda Lovelace</p>
-                    <p>Editora</p>
-                    <span>R$24,99</span>
-
-                </div>
-
-
-            </div>
-
-            <div class="card-book">
-
-        <div class="img-book">
-            <img src="https://m.media-amazon.com/images/I/510CMxWIujL._SY445_SX342_.jpg" alt="" srcset="">
-        </div>
-
-        <div class="info-book">
-
-            <h4>A princesa salva a si mesma neste livro</h4>
-            <p>Amanda Lovelace</p>
-            <p>Editora</p>
-            <span>R$24,99</span>
-
-        </div>
-
-
-
+  </div>
 </div>
-
