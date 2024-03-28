@@ -7,7 +7,7 @@ import { ApiService } from '../../api.service';
 @Component({
   selector: 'app-create-account',
   standalone: true,
-  imports: [ContinueWithComponent, NavBarComponent, FooterCardComponent],
+  imports: [ContinueWithComponent, NavBarComponent, FooterCardComponent, RouterModule],
   templateUrl: './create-account.component.html',
   styleUrl: './create-account.component.css'
 })

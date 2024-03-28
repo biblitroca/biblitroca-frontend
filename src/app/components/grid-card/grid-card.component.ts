@@ -22,4 +22,6 @@ export class GridCardComponent implements OnInit {
     }),
     this.image = this.apiService.getRandomImage();    
   }
+
+  
 }

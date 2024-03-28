@@ -18,14 +18,19 @@
 .section-txt{
     display: flex;
     align-items: center;
-    
-    
+    color: #333;
 }
 
 .section-txt > a{
+    font-weight: bold;
     text-decoration: none;
     color: #333;
+    margin-left: 10px;
 }
+
+.section-txt> a:hover{
+    color: #612AFF;
+  }
 
 .card-book{
   
