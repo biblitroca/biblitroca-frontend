@@ -1,25 +1,25 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 import { ApiService } from '../../api.service';
+import { Observable } from 'rxjs';
 @Component({
   selector: 'app-grid-card',
   standalone: true,
-  imports: [RouterModule],
+  imports: [RouterModule, CommonModule],
   templateUrl: './grid-card.component.html',
   styleUrl: './grid-card.component.css',
 })
 export class GridCardComponent implements OnInit {
-  name: any;
-  author: any;
-  type: any;
-  price: any;
-
+  books: any[] = [];
+  public image!: Observable<any>;
+  
   constructor(private apiService: ApiService) {}
 
   ngOnInit(): void {
-    this.apiService.get().subscribe((data: any) => {
-      console.log(data);
-    });
-    throw new Error('erro');
+    this.apiService.get().subscribe((response) =>{
+      this.books = response; 
+    }),
+    this.image = this.apiService.getRandomImage();    
   }
 }
