@@ -6,14 +6,14 @@ import { Observable, catchError, map, of, tap } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-  private apiUrl: string = 'https://biblitroca.onrender.com/books';
+  private apiBooks: string = 'https://biblitroca.onrender.com/books';
 
-  private apiUserUrl: string = 'https://biblitroca.onrender.com/users'
+  private apiUser: string = 'https://biblitroca.onrender.com/users'
 
   constructor(private http: HttpClient) { }
 
   get(): Observable<any> {
-    return this.http.get(this.apiUrl);
+    return this.http.get(this.apiBooks);
   }
 
   public getRandomImage(): Observable<any> {
@@ -23,8 +23,8 @@ export class ApiService {
       );
   }
 
-  // getUsers(): Observable<any>{
-  //   return this.http.get<any>(`${this.apiUserUrl}`);
-  // }
+  post(bookData: any): Observable<any>{
+    return this.http.post<any>(this.apiUser, bookData);
+  }
    
 }

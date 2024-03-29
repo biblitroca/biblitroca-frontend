@@ -3,7 +3,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [],
@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
     CommonModule,
     AppRoutingModule,
     HttpClientModule,
-  
+    ReactiveFormsModule
   ],
   exports: [RouterModule]
 })

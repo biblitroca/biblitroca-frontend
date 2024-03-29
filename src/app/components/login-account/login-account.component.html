@@ -8,23 +8,26 @@
     <p>OU</p>
   </div>
   <div class="container centro">
-    <form class="line-input">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="line-input">
       <div class="group">
-        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Email" formControlName="email" />
         <label>Email</label>
       </div>
       <div class="group">
-        <input type="password" placeholder="Senha" />
+        <input type="password" placeholder="Senha" formControlName="password" />
         <label>Senha</label>
+      </div>
+      <div>
+        <div class="centro">
+          <button type="submit">Entrar</button>
+        </div>
+        <h3>Não tem conta ?</h3>
+        <a routerLink="/createAccount">
+          <h3><u>Crie uma conta</u></h3>
+        </a>
       </div>
     </form>
   </div>
-  <div>
-    <div class="centro">
-        <button class="button">Entrar</button>
-    </div>
-    <h3>Não tem conta ?</h3>
-    <a routerLink="/createAccount"><h3><u>Crie uma conta</u></h3></a>
-  </div>
+
 </div>
 <app-footer-card></app-footer-card>
