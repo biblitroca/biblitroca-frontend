@@ -29,7 +29,7 @@ export class LoginAccountComponent {
     private formBuilder: FormBuilder,
     private apiService: ApiService
   ) {
-    console.log("passou ");
+    console.log('passou ');
     this.loginForm = this.formBuilder.group({
       email: ['', Validators.required],
       password: ['', Validators.required],
@@ -38,9 +38,10 @@ export class LoginAccountComponent {
   onSubmit(): void {
     console.log('entrou');
     if (this.loginForm.valid) {
-      console.log("entrou no if")
-      this.apiService.post(this.loginForm.value)
-      console.log("valor:"+this.loginForm)
+      console.log('entrou no if');
+      this.apiService.post(this.loginForm.value).subscribe(result => {});
+      console.log('valor:' + this.loginForm);
+
     }
   }
 }

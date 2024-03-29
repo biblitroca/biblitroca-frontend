@@ -8,7 +8,9 @@ import { Observable, catchError, map, of, tap } from 'rxjs';
 export class ApiService {
   private apiBooks: string = 'https://biblitroca.onrender.com/books';
 
-  private apiUser: string = 'https://biblitroca.onrender.com/users'
+  private apiUser: string = 'https://biblitroca.onrender.com/users';
+
+  private apiLogin: string = 'https://biblitroca.onrender.com/login';
 
   constructor(private http: HttpClient) { }
 
@@ -23,8 +25,11 @@ export class ApiService {
       );
   }
 
-  post(bookData: any): Observable<any>{
-    return this.http.post<any>(this.apiUser, bookData);
+  post(userData: any): Observable<any>{
+    return this.http.post<any>(this.apiUser, userData);
   }
    
+  postLogin(userData: any): Observable<any>{
+    return this.http.post<any>(this.apiLogin, userData);
+  }
 }
