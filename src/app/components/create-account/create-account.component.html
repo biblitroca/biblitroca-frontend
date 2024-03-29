@@ -1,4 +1,6 @@
 <app-nav-bar></app-nav-bar>
+
+
 <div class="centro">
   <div class="centro">
     <h1 class="centro"><b>CRIE SUA CONTA</b></h1>
@@ -8,29 +10,31 @@
     <p>OU</p>
   </div>
 
-  <div class="container centro">
-    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="line-input">
-      <div class="group">
-        <input type="text" placeholder="Nome completo" formControlName="name" />
-        <label>Nome completo:</label>
-      </div>
-
-      <div class="group">
-        <input type="text" placeholder="Email" formControlName="email"/>
-        <label>Email:</label>
-      </div>
-      <div class="group">
-        <input type="password" placeholder="Senha" formControlName="password" />
-        <label>Senha:</label>
-      </div>
-      <div class="centro">
-        <input type="radio" />
+    <div class="container centro">
+        <form class="line-input" [formGroup]="userForm">
+            <div class="group">
+                <input type="text" placeholder="Nome completo" formControlName="name">
+                <label>Nome completo:</label>
+            </div>
+            
+            <div class="group">
+                <input type="text" placeholder="Email" formControlName="email"> 
+                <label>Email:</label>
+            </div>
+            <div class="group">
+                <input type="password" placeholder="Senha" formControlName="password"> 
+                <label>Senha:</label>
+            </div>
+        </form>
+    </div>
+    <div class="centro">
+        <input type="radio" >
         <p>Aceito os <u>termos e condições</u></p>
-      </div>
-      <div class="centro">
-        <button type="submit" (click)="onSubmit()">Criar Conta</button>
-      </div>
-      <div class="centro">
+    </div>
+    <div class="centro">
+        <button class="button"(click)="criarUser()" >Criar Conta</button>
+    </div>
+    <div class="centro">
         <h3>Já tem conta ?</h3>
         <a routerLink="/login"
           ><h3><u>Faça login</u></h3></a

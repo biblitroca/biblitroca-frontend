@@ -42,8 +42,8 @@ text-align: center;
 }
 
 
-#img-section{
-    border-radius: 50%;
+.card-component > img {
+    border-radius: 100%;
     width: 150px;
     height: 150px;
 }

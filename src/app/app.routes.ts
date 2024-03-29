@@ -8,6 +8,8 @@ import { CategoriesCardComponent } from './components/categories-card/categories
 import { BibliotecaComponent } from './pages/biblioteca/biblioteca.component';
 import { SeboComponent } from './pages/sebo/sebo.component';
 import { CategoriasComponent } from './pages/categorias/categorias.component';
+import { CartComponent } from './components/cart/cart.component';
+import { CarrinhoComponent } from './pages/carrinho/carrinho.component';
 
 export const routes: Routes = [
   {
@@ -33,5 +35,9 @@ export const routes: Routes = [
   {
     path: 'categorias',
     component: CategoriasComponent 
+  },
+  {
+    path: 'carrinho',
+    component: CarrinhoComponent 
   },
 ];
