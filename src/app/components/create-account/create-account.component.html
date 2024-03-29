@@ -1,4 +1,6 @@
 <app-nav-bar></app-nav-bar>
+
+
 <div class="centro">
     
     <!-- arrumar a nav bar paara deixar o container da foto separado -->
@@ -11,18 +13,18 @@
     </div>
 
     <div class="container centro">
-        <form class="line-input">
+        <form class="line-input" [formGroup]="userForm">
             <div class="group">
-                <input type="text" placeholder="Nome completo">
+                <input type="text" placeholder="Nome completo" formControlName="name">
                 <label>Nome completo:</label>
             </div>
             
             <div class="group">
-                <input type="text" placeholder="Email"> 
+                <input type="text" placeholder="Email" formControlName="email"> 
                 <label>Email:</label>
             </div>
             <div class="group">
-                <input type="password" placeholder="Senha"> 
+                <input type="password" placeholder="Senha" formControlName="password"> 
                 <label>Senha:</label>
             </div>
         </form>
@@ -32,7 +34,7 @@
         <p>Aceito os <u>termos e condições</u></p>
     </div>
     <div class="centro">
-        <button class="button">Criar Conta</button>
+        <button class="button"(click)="criarUser()" >Criar Conta</button>
     </div>
     <div class="centro">
         <h3>Já tem conta ?</h3>
