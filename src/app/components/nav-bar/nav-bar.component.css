@@ -14,7 +14,11 @@ url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Krub:ital,
   align-items: center;
 }
 
-.navbar > h1{
+.navbar >a{
+  text-decoration: none;
+}
+
+.navbar >a > h1{
     color: #F6F6F6;
     background-color:#612AFF;
     text-align: center;
@@ -24,7 +28,6 @@ url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Krub:ital,
     margin-left: 30px;
     font-family: Krub;
     font-size: 30px ;
-
 }
 
 #searh-bar{

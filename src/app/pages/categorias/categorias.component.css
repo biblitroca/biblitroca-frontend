@@ -1,0 +1,39 @@
+.container-main{
+    display: flex;
+    flex-direction: column;
+   }
+   
+   
+   .title{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 20px;
+       color: #333;
+   }
+   
+   .title-categoria > p{
+    display: flex;
+    font-weight: bold;
+    margin-left: 20px;
+   }
+   
+   .card-book{
+   padding: 20px;
+   }
+   
+   .img-book > img{
+       width: 200px;
+       height: 300px;
+       
+   }
+   
+   .info-book > span{
+   font-weight: bold;
+   }
+   
+   .grid-books{
+       display: grid;
+       grid-template-columns: repeat(4, 1fr); 
+      
+   }
