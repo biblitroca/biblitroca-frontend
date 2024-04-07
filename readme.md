@@ -76,8 +76,6 @@ Para executar o projeto, basta digitar o comando `ng serve` no terminal e navega
 ## 👩‍💻 Desenvolvedores do Projeto
 
 - <a href="https://www.linkedin.com/in/bianca-toller" target="_blank">Bianca Toller</a>
-- <a href="https://www.linkedin.com/in/cleverson-nascimento/" target="_blank">Clerverson Nascimento</a>
 - <a href="https://www.linkedin.com/in/desire%C3%AA-costa/" target="_blank">Desireê Costa</a>
-- <a href="https://www.linkedin.com/in/guilherme-galvao-work/" target="_blank">Guilherme Barbosa Galvão</a>
 - <a href="https://www.linkedin.com/in/rannahmaz/" target="_blank">Rannah M</a>
 - <a href="https://www.linkedin.com/in/viponcio/" target="_blank">Vitoria Kuntz Poncio</a>
